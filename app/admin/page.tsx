@@ -49,7 +49,7 @@ export default async function AdminDashboard() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
-                {submissions.map((sub) => (
+                {submissions.map((sub: any) => (
                   <tr
                     key={sub.id}
                     className="hover:bg-white/5 transition-colors group"
